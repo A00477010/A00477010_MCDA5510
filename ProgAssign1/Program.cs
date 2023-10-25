@@ -35,6 +35,8 @@ namespace ProgAssign1
             foreach (string csvFile in csvFiles)
             {
                 parseCsv(csvFile, log);
+                log.Log("============================================================================================================");
+                log.Log(csvFile);
 
 
             }
@@ -79,6 +81,8 @@ namespace ProgAssign1
                             }
                             else
                             {
+                                log.Log("Invalid record "+record.FirstName + " " + record.LastName + " " + record.StreetNumber + " " + record.Street + " " + record.City + " " + record.Province + " " + record.PostalCode + " " + record.Country + " " + record.PhoneNumber + " " + record.EmailAddress + " " + record.Date);
+                                log.Log("--------------------------------------------------------------------------------------------------------------------------------------------");
                                 skipped++;
 
 
