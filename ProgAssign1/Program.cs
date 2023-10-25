@@ -19,9 +19,9 @@ namespace ProgAssign1
         {
 
             Stopwatch stopwatch = new Stopwatch();
-            Logger log = new Logger("C:\\Users\\adity\\Desktop\\SDEV\\Assignment1\\A00477010_MCDA5510\\ProgAssign1", "logs.txt");
-            string outputCsv = "C:\\Users\\adity\\Desktop\\SDEV\\Assignment1\\A00477010_MCDA5510\\ProgAssign1\\Output.csv";
-            Console.WriteLine("Hello world this is a new console app for assignment 1 ");
+            Logger log = new Logger("C:\\Users\\adity\\Desktop\\SDEV\\Assignment1\\A00477010_MCDA5510\\ProgAssign1\\log", "logs.txt");
+            string outputCsv = "C:\\Users\\adity\\Desktop\\SDEV\\Assignment1\\A00477010_MCDA5510\\ProgAssign1\\Output\\Output.csv";
+            Console.WriteLine("Hello , The process for analyzing file has begun ");
             string rootFolder = "C:\\Users\\adity\\Desktop\\SDEV\\MCDA5510_Assignments\\Sample Data";
             string[] csvFiles = Directory.GetFiles(rootFolder, "*.csv", SearchOption.AllDirectories);
             log.Log("Process started");

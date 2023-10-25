@@ -1,0 +1,4 @@
+2023-10-25 20:10:30 [INFO] Process started
+2023-10-25 20:10:59 [INFO] Valid rows found and updated -> 178691
+2023-10-25 20:10:59 [INFO] Invalid rows found ->117287
+2023-10-25 20:10:59 [INFO] Elapsed time for execution 29596 ms
