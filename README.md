@@ -2,7 +2,7 @@
 
 Assigment 1
 Project Description:
-Write a C# program to traverse a directory structure (DirWalker.cs) of CSV files
+Write a C# program to traverse a directory structure  of CSV files
 that contain CSV files with customer info. A simple sample is provided in with the
 sample code, but you MUST run against a larger data set.
 
